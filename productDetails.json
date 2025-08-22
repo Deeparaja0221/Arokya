@@ -1,0 +1,104 @@
+{
+  "1": {
+    "name": "Arokya Full Cream Milk",
+    "image": "./images/m1.png",
+    "description": "Arokya Full Cream Milk is rich, creamy, and wholesome, packed with essential nutrients like protein and calcium. Sourced from trusted farmers and processed with the highest standards of purity, it delivers natural goodness and great taste, making it ideal for the whole family.",
+    "details": {
+      "Energy": "90–100 kcal",
+      "Protein": "3.2 g",
+      "Fat": "6 g",
+      "Carbohydrates (Lactose)": "5 g",
+      "Calcium": "~120 mg",
+      "Ingredients": "Pure cow’s milk"
+    }
+  },
+  "2": {
+    "name": "Arokya Standardised Milk",
+    "image": "./images/m2.png",
+    "description": "Arokya Standardised Milk provides a balanced taste and nutrition, standardized to 4.5% fat, suitable for everyday consumption in tea, coffee, or cooking.",
+    "details": {
+      "Energy": "80–90 kcal",
+      "Protein": "3 g",
+      "Fat": "4.5 g",
+      "Carbohydrates (Lactose)": "4.8 g",
+      "Calcium": "~110 mg",
+      "Ingredients": "Pure cow’s milk"
+    }
+  },
+  "3": {
+    "name": "Arokya Full Toned Milk",
+    "image": "./images/m3.png",
+    "description": "Arokya Full Toned Milk is a lighter milk with 3% fat, nutritious and refreshing, ideal for health-conscious families looking for a balanced diet.",
+    "details": {
+      "Energy": "65–75 kcal",
+      "Protein": "3 g",
+      "Fat": "3 g",
+      "Carbohydrates (Lactose)": "5 g",
+      "Calcium": "~110 mg",
+      "Ingredients": "Pure cow’s milk"
+    }
+  },
+  "4": {
+    "name": "Arokya Double Toned Milk",
+    "image": "./images/m4.png",
+    "description": "Arokya Double Toned Milk is a low-fat milk variant that contains 1.5% fat, offering a healthy and nutritious option for weight-conscious consumers.",
+    "details": {
+      "Energy": "50–60 kcal",
+      "Protein": "3 g",
+      "Fat": "1.5 g",
+      "Carbohydrates (Lactose)": "5 g",
+      "Calcium": "~100 mg",
+      "Ingredients": "Pure cow’s milk"
+    }
+  },
+  "5": {
+    "name": "Arokya Curd 125g",
+    "image": "./images/c1.WEBP",
+    "description": "Arokya Curd 125g is smooth and creamy, made from pure toned milk, naturally fermented to offer probiotics that aid digestion and boost immunity.",
+    "details": {
+      "Fat": "3.5 g",
+      "Protein": "3.1 g",
+      "Ingredients": "Toned milk, active bacterial culture"
+    }
+  },
+  "6": {
+    "name": "Arokya Curd 500g",
+    "image": "./images/c2.PNG",
+    "description": "Arokya Curd 500g offers a wholesome portion of fresh, creamy curd with live cultures that promote digestive health and provide a rich taste.",
+    "details": {
+      "Fat": "3.5 g",
+      "Protein": "3.1 g",
+      "Ingredients": "Toned milk, active bacterial culture"
+    }
+  },
+  "7": {
+    "name": "Arokya Paneer",
+    "image": "./images/p1.png",
+    "description": "Arokya Paneer is handmade traditional cottage cheese, soft and fresh, ideal for delicious Indian curries and snacks.",
+    "details": {
+      "Protein": "18 g",
+      "Fat": "20 g",
+      "Ingredients": "Fresh cow’s milk, lemon juice/coagulant"
+    }
+  },
+  "8": {
+    "name": "Arokya Ghee",
+    "image": "./images/p2.jpg",
+    "description": "Arokya Ghee is pure clarified butter made by simmering fresh cream, rich in aroma and essential fatty acids, perfect for cooking and traditional recipes.",
+    "details": {
+      "Energy": "900 kcal per 100g",
+      "Fat": "99.5 g",
+      "Ingredients": "Clarified butter from cow’s milk"
+    }
+  },
+  "9": {
+    "name": "Arokya Cheese",
+    "image": "./images/c1.png",
+    "description": "Arokya Cheese is a smooth, creamy cheese made from pure milk, perfect for sandwiches, salads, and cooking.",
+    "details": {
+      "Protein": "25 g",
+      "Fat": "28 g",
+      "Ingredients": "Pasteurized cow’s milk, bacterial cultures, salt"
+    }
+  }
+}

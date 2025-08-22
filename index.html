@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AROKYA</title>
+    <link rel="icon" type="image/png" href="./images/aokya_logo_new.png">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left" role="banner">
+                <img src="./images/arokya_logo_new.png" alt="Company Logo" class="logo" />
+            </div>
+            <ul class="nav-center" role="navigation" aria-label="Primary Navigation">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+            <div class="nav-right" role="search">
+                <form id="searchForm" role="search" aria-label="Search products">
+                    <input type="search" id="searchInput" name="search" placeholder="Search products..." aria-label="Search products" />
+                    <button type="submit" aria-label="Submit search">🔍</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" aria-label="Homepage Introduction" class="hero-section">
+            <figure>
+                <img src="./images/l1.jpeg" alt="Beautiful farm field" />
+                <figcaption>Fresh and Organic Products</figcaption>
+            </figure>
+            <div class="hero-buttons">
+                <button id="shopNowBtn" aria-controls="products">Shop Now</button>
+                <button id="aboutUsBtn" aria-controls="about">About Us</button>
+            </div>
+        </section>
+
+        <section id="products" aria-label="Our Products">
+            <h2>Our Products</h2>
+            <div id="productsContainer" class="products-container" role="list" aria-live="polite">
+            </div>
+        </section>
+
+        <section id="about" aria-label="About Us" class="info-section">
+            <h2>About Us</h2>
+            <article>
+                <p>Launched in 1995, Arokya is the flagship brand of Hatsun Agro Product Limited. We have won the trust of millions of consumers across Tamil Nadu, Andhra Pradesh, Telengana, Karnataka and parts of Maharashtra.</p>
+                <p>The popularity of Arokya can be attributed to the fact that a whole eco-system has been built around the brand promise “Goodness with care, from our villages”. Great care and hygiene goes into the procurement, processing and packaging of Arokya Milk to ensure it’s made available to you in a healthy way.</p>
+                <p>Milk is collected with extreme care from healthy, well-nourished cattle in hygienic cow-sheds spread across well-connected villages. This is then, pasteurized and homogenized following scientific guidelines to meet stringent quality standards.</p>
+                <p>Under the Arokya brand, we have also have Curd. It is available in various convenient formats.</p>
+            </article>
+        </section>
+
+        <section id="unique" aria-label="Company Uniqueness" class="info-section">
+            <h2>What Makes Us Unique</h2>
+            <ul>
+                <li><b>Farm-Fresh Quality</b> – Directly sourced from trusted farms, ensuring natural goodness in every drop.</li>
+                <li><b>Purity Promise</b> – 100% pure cow’s milk with no adulteration, preservatives, or synthetic additives.</li>
+                <li><b>Superior Taste</b> – Creamy, rich, and wholesome taste that makes every sip refreshing.</li>
+                <li><b>Strict Quality Checks</b> – Multiple quality tests at every stage to guarantee safety and nutrition.</li>
+                <li><b>Nutrient-Rich</b> – Packed with essential proteins, calcium, and vitamins to support healthy growth.</li>
+                <li><b>Modern Processing</b> – Processed and packed in state-of-the-art facilities to maintain freshness.</li>
+                <li><b>Trusted Brand</b> – A legacy of trust and excellence in dairy, loved by millions of families.</li>
+                <li><b>Hygienic Packaging</b> – Leak-proof, tamper-proof packs that lock in freshness and purity.</li>
+                <li><b>Wide Product Range</b> – From fresh milk to value-added dairy products like curd, ghee, paneer, and more.</li>
+                <li><b>Commitment to Health </b> – Focused on delivering safe, nutritious, and natural dairy for all age groups.</li>
+            </ul>
+        </section>
+
+        <section id="history" aria-label="History" class="info-section">
+            <h2>Our History</h2>
+            <article>
+                <p>Arokya, the flagship milk brand of Hatsun Agro Product Ltd, was launched in 1995 with a strong focus on purity, freshness, and quality. Starting with milk and curd, the brand quickly became a household name across South India by sourcing milk directly from lakhs of farmers in villages and ensuring it is pasteurized and homogenized under strict hygiene standards. In 2021, Arokya expanded its product line with the launch of paneer made through traditional methods. Today, Arokya stands as one of the most trusted dairy brands, offering a range of products like milk, curd, and paneer, loved by millions of families.</p>
+            </article>
+        </section>
+
+        <section id="home" aria-label="Homepage Introduction" class="hero-section">
+  <figure style="position: relative; width: 100%; height: 70vh; overflow: hidden; margin: 0;">
+    <iframe 
+      src="https://www.youtube.com/embed/LecLzXMmA5I?autoplay=1&mute=1&loop=1&playlist=LecLzXMmA5I"
+      frameborder="0" 
+      allow="autoplay; fullscreen" 
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+    <!-- <figcaption style="position: absolute; bottom: 10px; left: 20px; color: white; font-size: 1.5rem; background: rgba(0,0,0,0.4); padding: 5px 10px; border-radius: 8px;">
+      Fresh and Organic Products
+    </figcaption> -->
+  </figure>
+  <div class="hero-buttons" style="margin-top: 15px; text-align: center;">
+    <button id="shopNowBtn" aria-controls="products">Shop Now</button>
+    <button id="aboutUsBtn" aria-controls="about">About Us</button>
+  </div>
+</section>
+
+        <section id="clients" aria-label="Client Testimonials" class="info-section">
+            <h2>Clients & Feedback</h2>
+            <blockquote cite="#">
+                <p>“Absolutely love the quality and freshness of their products. Reliable delivery every time.”</p>
+                <footer>— Amul</footer>
+            </blockquote>
+            <blockquote cite="#">
+                <p>“A wonderful experience, very customer-focused and passionate about quality.”</p>
+                <footer>— Arun</footer>
+            </blockquote>
+            <blockquote cite="#">
+                <p>“Best organic dairy products I've ever had. Highly recommended!”</p>
+                <footer>— Hap</footer>
+            </blockquote>
+        </section>
+
+        <section id="subscribe" aria-label="Newsletter Subscription" class="info-section">
+            <h2>Subscribe for Updates</h2>
+            <form id="subscribeForm" aria-describedby="subscribeDesc">
+                <p id="subscribeDesc">Enter your email to receive news about our latest products and offers.</p>
+                <input type="email" id="emailInput" aria-label="Email address" placeholder="Your email address" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <address id="contact" aria-label="Contact Information" class="info-section">
+            <h2>Contact Us</h2>
+            <p>Email: <a>info@organicdairy.com</a></p>
+            <p>Phone: <a>044-24501622</a></p>
+            <p>The corporate office for Hatsun Agro Product Ltd. is located at Plot No. 14, Tamil Nadu Housing Board "A" Road, Sholinganallur, Chennai - 600 119, India. </p>
+        </address>
+    </main>
+
+<script type="module" src="./script.js"></script>
+</body>
+</html>
